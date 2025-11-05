@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-image: url('./img/download.jpeg'); /* nome da sua imagem */
   background-size: cover; /* faz a imagem preencher toda a tela */
@@ -19,4 +20,27 @@ h1, h2 {
   background-color: rgba(0, 0, 0, 0.5); /* fundo transparente atrás do texto pra melhorar a leitura */
   padding: 10px;
   border-radius: 10px;
+=======
+body {
+  background-image: url('./img/download.jpeg'); /* nome da sua imagem */
+  background-size: cover; /* faz a imagem preencher toda a tela */
+  background-repeat: no-repeat; /* impede que ela se repita */
+  background-position: center; /* centraliza a imagem */
+  height: 100vh; /* ocupa toda a altura da tela */
+
+  display: flex; /* centraliza o conteúdo */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: red; /* texto em vermelho */
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+  background-color: rgba(0, 0, 0, 0.5); /* fundo transparente atrás do texto pra melhorar a leitura */
+  padding: 10px;
+  border-radius: 10px;
+>>>>>>> 63cc5618f5e5ba5c675acf55f6635157962173c5
 }
